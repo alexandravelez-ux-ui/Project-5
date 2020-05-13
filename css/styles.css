@@ -15,23 +15,24 @@ p {
     GALLERY
 ==============*/
 .container {
- display: flex;
- display: inline;
-
+ /* display: flex;
+ display: inline-block; */
+   margin: 0 auto;
 }
 
 .gallery {
- display: flex;
- flex-direction: row;
- flex-wrap: wrap;
- align-items: center;
- justify-content: center;
- margin: 0 auto;
- width: 200px;
- height: 200px;
- padding-right: 60px;
- padding-bottom: 40px;
- background-size: contain;
+    display: flex;
+    display: inline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    width: 200px;
+    height: 200px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    background-size: contain;
 }
 
 
