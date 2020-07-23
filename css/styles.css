@@ -14,28 +14,48 @@ p {
 /* ============== 
     GALLERY
 ==============*/
-.container {
+/* .container {
  /* display: flex;
- display: inline-block; */
-   margin: 0 auto;
-}
+ display: inline-block; 
+   margin: 0 auto; */
 
 .gallery {
+    margin: 24px 60px;
+}
+
+.gallery img {
+    transition: 1s;
+    padding: 16px;
+    width: 200px;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* .gallery {
     display: flex;
     display: inline;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    
     width: 200px;
     height: 200px;
-    padding-right: 60px;
-    padding-bottom: 40px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 60px;
     background-size: contain;
+} */
+
+/* How do you create columns with a CSS grid? */
+.grid {
+   display:grid;
+   height: 200px;
+   grid-template-columns: 25% 25% 25% 25%;
+   grid-template-rows: 200px;
+
 }
-
-
 /* ============== 
     MEDIA QUERIES
 ==============*/
