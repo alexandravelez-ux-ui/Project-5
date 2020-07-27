@@ -11,6 +11,18 @@ p {
  color: #f7f7f7; 
 }
 
+a {
+    text-decoration: none;
+  }
+
+.lb-data .lb-caption {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1em;
+    padding-top: 16px;
+    margin-top: 16px;
+    text-align: center; 
+}
 /* ============== 
     GALLERY
 ==============*/
