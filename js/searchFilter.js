@@ -6,11 +6,11 @@
  *  Case insensitivity has been added, searches will ignore letter case. 
  * 
  * Installation: 
- *  Add searchFilter.js into your js folder
- *  Add this line into your index.html <script src="js/searchFilter.js"></script>
+ *  Add searchFilter.js into your js folder ==== DONE ====
+ *  Add this line into your index.html <script src="js/searchFilter.js"></script> ==== DONE ====
  *   
  * Utilization:
- *  Ensure that your search input is setup like this in your index.html:  
+ *  Ensure that your search input is setup like this in your index.html:  ==== DONE ====
  *   <input type="search" name="search" id="search" placeholder="Search">
  * 
  *  Ensure that your image captions are added to your anchor elements via the data-caption attribute: ==== DONE ====
