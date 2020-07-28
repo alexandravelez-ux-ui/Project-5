@@ -16,6 +16,7 @@ a {
   }
 
 .lb-data .lb-caption {
+    font-family: buenard;
     font-size: 20px;
     font-weight: 700;
     line-height: 1em;
@@ -23,31 +24,54 @@ a {
     margin-top: 16px;
     text-align: center; 
 }
+
+input {
+    font-family: buenard;
+    font-size: 16px;
+    border-radius: 2px;
+    border-color: ghostwhite;
+    line-height: 1em;
+    width: 400px; 
+    height: 32px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0;
+}
+
 /* ============== 
-    GALLERY
+    GALLERY GRID
 ==============*/
-/* .container {
- /* display: flex;
- display: inline-block; 
-   margin: 0 auto; */
+
+.container {
+    display: grid; 
+    margin: auto; 
+    max-width: 800px;
+    grid-template-rows: repeat(3 minmax(220px, 1fr));
+    grid-row-gap: 4px;
+    grid-template-columns: repeat(4, 1fr);
+
+}
 
 .gallery {
-    margin: 24px 60px;
-}
+    display:flex;
+    justify-content: center;
+} 
 
 .gallery img {
     transition: 1s;
     padding: 16px;
     width: 200px;
-}
+} 
 
 .gallery img:hover {
     transform: scale(1.1);
-}
+} 
 
 /* .gallery {
     display: flex;
-    display: inline;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
@@ -60,15 +84,22 @@ a {
     background-size: contain;
 } */
 
-/* How do you create columns with a CSS grid? */
-.grid {
-   display:grid;
-   height: 200px;
-   grid-template-columns: 25% 25% 25% 25%;
-   grid-template-rows: 200px;
+/* .img-wrapper {
+    display: flex;
+    max-width: 550px;
+    margin: 0 auto; 
+} */
 
-}
-/* ============== 
-    MEDIA QUERIES
-==============*/
+/* How do you create columns with a CSS grid? */
+
+/* =========================
+        GRID
+===========================*/
+
+/* .grid {
+   display:grid;
+   max-width: 800px;
+   height: 200px;
+   margin: 0 auto; 
+} */
 
