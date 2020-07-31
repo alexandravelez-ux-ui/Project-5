@@ -5,40 +5,30 @@
 ==============*/
 
 p {
- font-family: buenard;
- font-size: 18px;
- line-height: 21px;
- color: #f7f7f7; 
+  font-family: buenard;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f7f7f7;
 }
 
 a {
-    text-decoration: none;
-  }
-
-.lb-data .lb-caption {
-    font-family: buenard;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1em;
-    padding-top: 16px;
-    margin-top: 16px;
-    text-align: center; 
+  text-decoration: none;
 }
 
 input {
-    font-family: buenard;
-    font-size: 16px;
-    border-radius: 2px;
-    border-color: ghostwhite;
-    line-height: 1em;
-    width: 400px; 
-    height: 32px;
+  font-family: buenard;
+  font-size: 16px;
+  border-radius: 2px;
+  border-color: ghostwhite;
+  line-height: 1em;
+  width: 400px;
+  height: 32px;
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    margin: 5vh 0;
+header {
+  display: flex;
+  justify-content: center;
+  margin: 5vh 0;
 }
 
 /* ============== 
@@ -46,60 +36,10 @@ header{
 ==============*/
 
 .container {
-    display: grid; 
-    margin: auto; 
-    max-width: 1000px;
-    grid-template-rows: repeat(3 minmax(220px, 1fr));
-    grid-row-gap: 4px;
-    grid-template-columns: repeat(4, 1fr);
-
+  display: grid;
+  margin: auto;
+  max-width: 1000px;
+  grid-row-gap: 4px;
+  grid-template-columns: repeat(4, 1fr);
 }
-
-.gallery {
-    display:flex;
-    justify-content: center;
-} 
-
-.gallery img {
-    transition: 1s;
-    padding: 16px;
-    width: 200px;
-} 
-
-.gallery img:hover {
-    transform: scale(1.1);
-} 
-
-/* .gallery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 200px;
-    padding-right: 100px;
-    padding-bottom: 100px;
-    padding-top: 60px;
-    background-size: contain;
-} */
-
-/* .img-wrapper {
-    display: flex;
-    max-width: 550px;
-    margin: 0 auto; 
-} */
-
-/* How do you create columns with a CSS grid? */
-
-/* =========================
-        GRID
-===========================*/
-
-/* .grid {
-   display:grid;
-   max-width: 800px;
-   height: 200px;
-   margin: 0 auto; 
-} */
 
